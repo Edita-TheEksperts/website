@@ -306,12 +306,12 @@ export default function Contact() {
             <h2 className="font-matt text-2xl md:text-4xl font-bold text-center text-gray-800 mb-10">
               Kaffee? Hier finden Sie uns!
             </h2>
-            <div className="font-matt max-w-[1280px] mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 px-4">
+            <div className="font-matt max-w-[1280px] mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
               {/* Switzerland Section */}
-              <div className="font-matt flex flex-col items-center  space-y-4 transition-all duration-300 p-6 rounded-[20px] group">
+              <div className="font-matt flex flex-col items-center  space-y-4 transition-all duration-300 p-4 rounded-[20px] group">
                 {/* Image */}
                 <div
-                  className="font-matt  w-[200px] h-[200px] rounded-[20px]"
+                  className="font-matt  w-[250px] h-[250px]"
                   style={{
                     backgroundImage: `url('/images/Switzerland.png')`,
                     backgroundSize: "cover",
@@ -330,7 +330,7 @@ export default function Contact() {
               <div className="font-matt flex flex-col items-center  space-y-4 transition-all duration-300 p-6 rounded-[20px] group">
                 {/* Image */}
                 <div
-                  className="font-matt w-[200px] h-[200px]  rounded-[20px]"
+                  className="font-matt w-[250px] h-[250px]"
                   style={{
                     backgroundImage: `url('/images/Kosovo.png')`,
                     backgroundSize: "cover",
@@ -349,7 +349,7 @@ export default function Contact() {
               <div className="font-matt flex flex-col items-center  space-y-4 transition-all duration-300 p-6 rounded-[20px]  group">
                 {/* Image */}
                 <div
-                  className="font-matt w-[200px] h-[200px] rounded-[20px]"
+                  className="font-matt w-[250px] h-[250px]"
                   style={{
                     backgroundImage: `url('/images/digital.png')`,
                     backgroundSize: "cover",
@@ -368,4 +368,3 @@ export default function Contact() {
     </div>
   );
 }
-
