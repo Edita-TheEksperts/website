@@ -90,6 +90,10 @@ export default function Contact() {
           "What's the average length of a project?",
         ];
 
+        const toggleFaq = (index) => {
+          setFaqOpen((prev) => (prev === index ? null : index));
+        };
+
     return (
       <div className="bg-white min-h-screen p-4 text-gray-900 font-matt">
         {/* Contact Form Section */}
@@ -307,9 +311,9 @@ export default function Contact() {
               <div className="font-matt flex flex-col items-center  space-y-4 hover:bg-white transition-all duration-300 p-6 rounded-[20px] group">
                 {/* Image */}
                 <div
-                  className="font-matt w-32 h-32 sm:w-40 sm:h-40 bg-gray-200 rounded-[20px] group-hover:bg-blue-600 transition-all duration-300"
+                  className="font-matt  w-[200px] h-[200px] rounded-[20px]"
                   style={{
-                    backgroundImage: `url('/images/SwitzerlandMap.png')`,
+                    backgroundImage: `url('/images/Switzerland.png')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
@@ -326,9 +330,9 @@ export default function Contact() {
               <div className="font-matt flex flex-col items-center  space-y-4 hover:bg-white transition-all duration-300 p-6 rounded-[20px] group">
                 {/* Image */}
                 <div
-                  className="font-matt w-32 h-32 sm:w-40 sm:h-40 bg-gray-200 rounded-[20px] group-hover:bg-blue-600 transition-all duration-300"
+                  className="font-matt w-[200px] h-[200px]  rounded-[20px]"
                   style={{
-                    backgroundImage: `url('/images/GermanyMap.png')`,
+                    backgroundImage: `url('/images/Kosovo.png')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
@@ -345,9 +349,9 @@ export default function Contact() {
               <div className="font-matt flex flex-col items-center  space-y-4 hover:bg-white transition-all duration-300 p-6 rounded-[20px]  group">
                 {/* Image */}
                 <div
-                  className="font-matt w-32 h-32 sm:w-40 sm:h-40 bg-gray-200 rounded-[20px] group-hover:bg-blue-600 transition-all duration-300"
+                  className="font-matt w-[200px] h-[200px] rounded-[20px]"
                   style={{
-                    backgroundImage: `url('/images/Figure.png')`,
+                    backgroundImage: `url('/images/digital.png')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                   }}
