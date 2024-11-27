@@ -58,9 +58,9 @@ const Home = () => {
                     Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten Sie Ihre IT-Abteilung erweitern?
                     </p>
                     <p className="text-[#5A585A] mb-8 font-matt font-[20px] leading-[33px]">
-                    Mit Book Your Expert haben wir die Lösung. Beschreiben Sie uns Ihr Problem, Ihre Wünsche und Bedürfnisse, und wir stellen das ideale Setup für Sie zusammen.
+                    Mit Book Your Ekspert haben wir die Lösung. Beschreiben Sie uns Ihr Problem, Ihre Wünsche und Bedürfnisse, und wir stellen das ideale Setup für Sie zusammen.
                     </p>
-                    <div className="flex space-x-4">
+                    <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <Link href="/services/salesforce">
                         <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200">
                         MEHR <br>
@@ -117,7 +117,7 @@ const Home = () => {
                 <section
                     onMouseEnter={() => setHovered(true)}
                     onMouseLeave={() => setHovered(false)}
-                    className="font-matt relative flex flex-col md:flex-row items-center justify-between p-4 rounded-[20px] max-w-[1280px] mx-auto my-8 lg:h-[620px] bg-[#FAFAFA] transition-all duration-300 ease-in-out hover:bg-[radial-gradient(circle,_#ffffff,_#d1e3ff,_#b0c7ff)]"
+                    className="font-matt relative flex flex-col md:flex-row text-center lg:text-left items-center justify-between p-4 rounded-[20px] max-w-[1280px] mx-auto my-8 lg:h-[620px] bg-[#FAFAFA] transition-all duration-300 ease-in-out hover:bg-[radial-gradient(circle,_#ffffff,_#d1e3ff,_#b0c7ff)]"
                     >
                     <div className="font-matt md:w-1/2 mb-8 md:mb-0 flex justify-center relative transition-transform duration-500 ease-in-out hover:scale-105">
                         
@@ -143,9 +143,9 @@ const Home = () => {
                         <p className="text-[#5A585A] mb-8 font-matt font-[20px] leading-[33px]">
                         Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten Sie Ihre IT-Abteilung erweitern?                        </p>
                         <p className="text-[#5A585A] mb-8 font-matt font-[20px] leading-[33px]">
-                        Mit Book Your Expert haben wir die Lösung.
+                        Mit Book Your Ekspert haben wir die Lösung.
                         Beschreiben Sie uns Ihr Problem, Ihre Wünsche und Bedürfnisse, und wir stellen das ideale Setup für Sie zusammen.                         </p>
-                        <div className="flex space-x-4">
+                        <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <Link href="/services/salesforce">
                         <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200">
                             MEHR <br>
@@ -172,8 +172,8 @@ const Home = () => {
                         Custom Development
                         </h2>
                         <p className="font-matt text-[#5A585A] mb-8 font-[20px] leading-[33px] lg:mb-16 transition-colors duration-300 group-hover:text-white">
-                        Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten Sie Ihre IT-Abteilung erweitern? Mit Book Your Expert haben wir die Lösung. Beschreiben Sie uns Ihr Problem.                        </p>
-                        <div className="flex space-x-4">
+                        Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten Sie Ihre IT-Abteilung erweitern? Mit Book Your Ekspert haben wir die Lösung. Beschreiben Sie uns Ihr Problem.                        </p>
+                        <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <Link href="/services/salesforce">
                             <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 hover:bg-white hover:text-[#0009FF] hover:border-white">
                             MEHR <br />
@@ -212,45 +212,45 @@ const Home = () => {
 
                    <GraphicDesignSection/>
 
-                   <section
-                            className="font-matt relative flex flex-col md:flex-row items-center justify-between p-6 rounded-[20px] max-w-[1280px] mx-auto my-8 lg:h-[620px] bg-[#FAFAFA] text-black overflow-hidden transition-all duration-500 hover:bg-[#0009FF] group"
-                            onMouseEnter={() => setHovering(true)} // Set hovering to true on mouse enter
-                            onMouseLeave={() => setHovering(false)} // Set hovering to false on mouse leave
-                            >
-                            {/* Left Section: Text */}
-                            <div className="md:w-1/2 flex flex-col lg:ml-8 items-center md:items-start text-center md:text-left transition-colors duration-500 group-hover:text-white lg:group-hover:ml-10">
-                                <h2 className="text-5xl md:text-6xl font-extrabold mb-6">
-                                Book your Expert
-                                </h2>
-                                <p className="text-[#5A585A] mb-6 text-lg leading-[33px] group-hover:text-white transition-colors duration-500">
-                                Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten
-                                Sie Ihre IT-Abteilung erweitern? Mit Book Your Expert haben wir die
-                                Lösung. Beschreiben Sie uns Ihr Problem.
-                                </p>
-                                <div className="flex space-x-4">
-                                <Link href="/services/salesforce">
-                                    <button className="border-2 border-[#0009FF] text-white bg-[#0009FF] hover:bg-white hover:text-[#0009FF] hover:border-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
-                                    MEHR <br />
-                                    ERFAHREN
-                                    </button>
-                                </Link>
-                                <Link href="/services/contact">
-                                    <button className="border-2 border-[#0009FF] text-[#0009FF] bg-white hover:bg-[#0009FF] hover:text-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
-                                    JETZT PROJEKT <br />
-                                    STARTEN
-                                    </button>
-                                </Link>
+                            <section
+                                className="font-matt relative flex flex-col md:flex-row items-center justify-between p-4 sm:p-6 md:p-8 rounded-[20px] max-w-[1280px] mx-auto my-8 lg:h-[620px] bg-[#FAFAFA] text-black overflow-hidden transition-all duration-500 hover:bg-[#0009FF] group"
+                                onMouseEnter={() => setHovering(true)}
+                                onMouseLeave={() => setHovering(false)}
+                                >
+                                {/* Left Section: Text */}
+                                <div className="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left transition-colors duration-500 group-hover:text-white lg:ml-4 lg:group-hover:ml-6 space-y-4">
+                                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 transition-all">
+                                    Book your Ekspert
+                                    </h2>
+                                    <p className="text-[#5A585A] text-base sm:text-lg leading-relaxed sm:leading-[30px] md:leading-[33px] transition-colors duration-500 group-hover:text-white">
+                                    Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten
+                                    Sie Ihre IT-Abteilung erweitern? Mit Book Your Ekspert haben wir die
+                                    Lösung. Beschreiben Sie uns Ihr Problem.
+                                    </p>
+                                    <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                                    <Link href="/services/salesforce">
+                                        <button className="border-2 border-[#0009FF] text-white bg-[#0009FF] hover:bg-white hover:text-[#0009FF] hover:border-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
+                                        MEHR <br />
+                                        ERFAHREN
+                                        </button>
+                                    </Link>
+                                    <Link href="/services/contact">
+                                        <button className="border-2 border-[#0009FF] text-[#0009FF] bg-white hover:bg-[#0009FF] hover:text-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
+                                        JETZT PROJEKT <br />
+                                        STARTEN
+                                        </button>
+                                    </Link>
+                                    </div>
                                 </div>
-                            </div>
 
-                            {/* Right Section: Image */}
-                            <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center relative overflow-hidden">
-                                <div className="transition-transform duration-500 ease-out transform ">
-                                {hovering ? (
-                                    <div className="flex justify-center items-center w-full h-full">
-                                    <svg
-                                        width="600"
-                                        height="600"
+                                {/* Right Section: Image */}
+                                <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center relative overflow-hidden">
+                                    <div className="transition-transform duration-500 ease-out transform">
+                                    {hovering ? (
+                                        <div className="flex justify-center items-center w-full h-full">
+                                        <svg
+                                        width="300"
+                                        height="300"
                                         viewBox="0 0 600 400"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -290,13 +290,13 @@ const Home = () => {
                                     <rect x="119" y="278" width="48" height="48" rx="24" fill="#0009FF"/>
                                         <path d="M151.781 302.531L145.031 309.281C144.89 309.422 144.699 309.501 144.5 309.501C144.301 309.501 144.11 309.422 143.969 309.281C143.829 309.14 143.75 308.949 143.75 308.75C143.75 308.551 143.829 308.361 143.969 308.22L149.44 302.75H134.75C134.551 302.75 134.36 302.671 134.22 302.531C134.079 302.39 134 302.199 134 302C134 301.802 134.079 301.611 134.22 301.47C134.36 301.329 134.551 301.25 134.75 301.25H149.44L143.969 295.781C143.829 295.64 143.75 295.449 143.75 295.25C143.75 295.051 143.829 294.861 143.969 294.72C144.11 294.579 144.301 294.5 144.5 294.5C144.699 294.5 144.89 294.579 145.031 294.72L151.781 301.47C151.85 301.539 151.906 301.622 151.943 301.713C151.981 301.804 152.001 301.902 152.001 302C152.001 302.099 151.981 302.197 151.943 302.288C151.906 302.379 151.85 302.461 151.781 302.531Z" fill="white"/>
                                         </svg>
-                                        </div>
+                                </div>
                             ) : (
                                 <Image
                                 src={figure}
-                                alt="Book Your Expert Image"
-                                width={700}
-                                height={700}
+                                alt="Book Your Ekspert Image"
+                                width={400} // Dynamically resize for mobile
+                                height={400}
                                 className="rounded-lg object-contain drop-shadow-lg"
                                 priority
                                 />
@@ -305,9 +305,9 @@ const Home = () => {
                         </div>
                         </section>
                         <div>
-                
+        
                 <section id="how" className="font-matt flex flex-col md:flex-row items-center justify-between px-6 md:px-10 py-10 lg:min-w-[1280px] mx-auto lg:mt-[200px]">
-                    <div className="font-matt flex-1 max-w-md text-left">
+                    <div className="font-matt flex-1 max-w-md lg:text-left text-center ">
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Unsere 4 Säulen – Ein ganzheitlicher Ansatz
                         </h2>
@@ -334,7 +334,7 @@ const Home = () => {
                         />
                     </div>
 
-                    <div className="font-matt flex-1 max-w-md text-left">
+                    <div className="font-matt flex-1 max-w-md lg:text-left text-center">
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Verstehen und Kommunikation – Die Basis für euren Erfolg
                         </h2>
@@ -345,7 +345,7 @@ const Home = () => {
                     </section>
 
                     <section className="font-matt flex flex-col md:flex-row items-center justify-between px-6 md:px-10 py-10 lg:min-w-[1280px] mx-auto">
-                    <div className="font-matt flex-1 max-w-md text-left">
+                    <div className="font-matt flex-1 max-w-md lg:text-left text-center">
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         UI/UX – Benutzerzentrierte Gestaltung für eure Lösung
                         </h2>
@@ -372,7 +372,7 @@ const Home = () => {
                         />
                     </div>
                     
-                    <div className="font-matt flex-1 max-w-md text-left">
+                    <div className="font-matt flex-1 max-w-md lg:text-left text-center">
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Technische Implementierung – Von der Idee zur Realität                        </h2>
                         <p className="font-matt text-lg md:text-xl text-gray-700 leading-relaxed">
@@ -524,7 +524,7 @@ const Home = () => {
 
             <LogoSection />
 
-            <section className="bg-white py-16 lg:max-w-[1280px] mx-auto flex flex-col font-matt space-y-16 lg:space-y-0">
+            <section className="bg-white py-16 lg:max-w-[1280px] mx-auto flex flex-col font-matt space-y-16 lg:space-y-0 ">
             <div className="font-matt flex flex-col items-center text-center space-y-12">
             {/* 100% Section */}
             <div className="font-matt flex flex-col items-center px-4 lg:px-0">
@@ -612,30 +612,44 @@ const Home = () => {
                 </div>
 
                 {/* 14 Section */}
-                <div className="font-matt flex flex-col items-center text-center space-y-4">
-                <div className="w-full max-w-[100px] md:max-w-[150px]">
-                <svg
-                        className="custom-svg-472"
-                        viewBox="0 0 472 227"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        >   
-                    <path d="M71.8465 75.8147H147.212V0.449219H118.744C118.744 26.3498 97.747 47.347 71.8457 47.347V75.8147H71.8465Z" fill="#0009FF"/>
-                    <path d="M156.635 226.547V0.449219H188.037C212.318 0.449219 232 20.1325 232 44.4123V226.547H156.635Z" fill="#0009FF"/>
-                    <path d="M400.153 141.762V75.8164H371.685C371.685 101.717 350.688 122.714 324.787 122.714V141.762V151.183V226.548H400.153V141.762H400.153Z" fill="#0009FF"/>
-                    <path d="M315.367 104.078H240.002V179.444H315.367V104.078Z" fill="#0009FF"/>
-                    <path d="M240.002 104.077H315.367L364.374 0.449219H289.008L240.002 104.077Z" fill="#0009FF"/>
-                    </svg>
+                <div className="font-matt flex flex-col items-center lg:items-end text-center lg:text-left space-y-4">
+                    <div className="w-full flex justify-center">
+                        <div className="w-full max-w-[80px] sm:max-w-[100px] md:max-w-[150px]">
+                        <svg
+                            className="custom-svg-472 mx-[-70px] lg:mx-0"
+                            viewBox="0 0 472 267"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                            d="M71.8465 75.8147H147.212V0.449219H118.744C118.744 26.3498 97.747 47.347 71.8457 47.347V75.8147H71.8465Z"
+                            fill="#0009FF"
+                            />
+                            <path
+                            d="M156.635 226.547V0.449219H188.037C212.318 0.449219 232 20.1325 232 44.4123V226.547H156.635Z"
+                            fill="#0009FF"
+                            />
+                            <path
+                            d="M400.153 141.762V75.8164H371.685C371.685 101.717 350.688 122.714 324.787 122.714V141.762V151.183V226.548H400.153V141.762H400.153Z"
+                            fill="#0009FF"
+                            />
+                            <path d="M315.367 104.078H240.002V179.444H315.367V104.078Z" fill="#0009FF" />
+                            <path
+                            d="M240.002 104.077H315.367L364.374 0.449219H289.008L240.002 104.077Z"
+                            fill="#0009FF"
+                            />
+                        </svg>
+                        </div>
                     </div>
-                    <p className="font-matt text-lg md:text-[28px] font-bold mt-4 uppercase">
-                    Erfolgreiche Projekte in den letzten 12 Monaten
+                    <p className="font-matt text-base sm:text-lg md:text-[28px] font-bold mt-4 uppercase text-center lg:text-left">
+                        Erfolgreiche Projekte in den letzten 12 Monaten
                     </p>
-                </div>
+                    </div>
                 </div>
             </div>
             </section>
 
-            <section className="bg-white py-16 flex flex-col lg:flex-row justify-between items-center lg:min-w-[1280px] mx-auto font-matt space-y-8 lg:space-y-0 mt-[200px] mb-[200px]">
+            <section className="bg-white py-16 flex flex-col lg:flex-row justify-between items-center lg:min-w-[1280px] mx-auto font-matt space-y-8 lg:space-y-0 lg:mt-[150px] lg:mb-[150px]">
             {/* Left Section: Heading */}
             <div className="flex-1 text-center lg:text-left lg:min-w-[490px]">
                 <h1 className="text-4xl lg:text-7xl font-bold leading-tight">
