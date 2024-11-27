@@ -62,13 +62,13 @@ const Home = () => {
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <Link href="/services/salesforce">
-                        <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200">
+                        <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 group-hover:text-[#0009FF] group-hover:bg-white">
                         MEHR <br>
                             </br>ERFAHREN
                         </button>
                         </Link>
                         <Link href="/services/contact">
-                        <button className="font-matt border-2 border-[#0009FF] text-[#0009FF] bg-white px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200">
+                        <button className="font-matt border-2 border-[#0009FF] text-[#0009FF] bg-white px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 group-hover:text-white group-hover:bg-[#0009FF]">
                             JETZT PROJEKT <br>
                             </br>STARTEN
                         </button>
@@ -175,13 +175,13 @@ const Home = () => {
                         Haben Sie einen Engpass im Unternehmen, steht ein Projekt an oder möchten Sie Ihre IT-Abteilung erweitern? Mit Book Your Ekspert haben wir die Lösung. Beschreiben Sie uns Ihr Problem.                        </p>
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <Link href="/services/salesforce">
-                            <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 hover:bg-white hover:text-[#0009FF] hover:border-white">
+                            <button className="font-matt border-2 border-[#0009FF] text-white bg-[#0009FF] px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 group-hover:bg-white group-hover:text-[#0009FF] group-hover:border-white">
                             MEHR <br />
                             ERFAHREN
                             </button>
                         </Link>
                         <Link href="/services/contact">
-                            <button className="font-matt border-2 border-[#0009FF] text-[#0009FF] bg-white px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 hover:bg-[#0009FF] hover:text-white hover:border-[#0009FF]">
+                            <button className="font-matt border-2 border-[#0009FF] text-[#0009FF] bg-white px-3 py-2 rounded-[20px] leading-[16px] text-[14px] font-extrabold transition-colors duration-200 group-hover:bg-[#0009FF] group-hover:text-white group-hover:border-[#0009FF]">
                             JETZT PROJEKT <br />
                             STARTEN
                             </button>
@@ -229,13 +229,13 @@ const Home = () => {
                                     </p>
                                     <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                                     <Link href="/services/salesforce">
-                                        <button className="border-2 border-[#0009FF] text-white bg-[#0009FF] hover:bg-white hover:text-[#0009FF] hover:border-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
+                                        <button className="border-2 border-[#0009FF] text-white bg-[#0009FF] group-hover:bg-white group-hover:text-[#0009FF] group-hover:border-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
                                         MEHR <br />
                                         ERFAHREN
                                         </button>
                                     </Link>
                                     <Link href="/services/contact">
-                                        <button className="border-2 border-[#0009FF] text-[#0009FF] bg-white hover:bg-[#0009FF] hover:text-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
+                                        <button className="border-2 border-[#0009FF] text-[#0009FF] bg-white group-hover:bg-[#0009FF] group-hover:text-white group-hover:border-white px-4 py-2 rounded-[20px] text-sm font-bold transition-colors duration-300">
                                         JETZT PROJEKT <br />
                                         STARTEN
                                         </button>
@@ -249,8 +249,8 @@ const Home = () => {
                                     {hovering ? (
                                         <div className="flex justify-center items-center w-full h-full">
                                         <svg
-                                        width="300"
-                                        height="300"
+                                        width="400"
+                                        height="400"
                                         viewBox="0 0 600 400"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -311,7 +311,7 @@ const Home = () => {
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Unsere 4 Säulen – Ein ganzheitlicher Ansatz
                         </h2>
-                        <p className="font-matt text-lg md:text-xl text-gray-700 leading-relaxed">
+                        <p className="font-matt lg:text-[20px] lg:leading-[33px] text-lg text-gray-700 ">
                         Unser Ansatz basiert auf vier zentralen Säulen, die eine nahtlose Zusammenarbeit und nachhaltige Ergebnisse gewährleisten. Vom Verstehen eurer individuellen Anforderungen, über die visuelle und technische Umsetzung bis hin zu einer langfristigen Partnerschaft begleiten wir euch Schritt für Schritt. Gemeinsam, in enger Kooperation, entwickeln wir die beste Lösung, die nicht nur eure aktuellen Bedürfnisse erfüllt, sondern auch zukunftsfähig bleibt. Jede Phase ist dabei auf Zusammenarbeit und Qualität ausgerichtet, um euch einen nachhaltigen Mehrwert zu bieten.
                         </p>
                     </div>
@@ -320,7 +320,7 @@ const Home = () => {
                         <img
                         src="/images/Full 1.png" 
                         alt="Info Section Image"
-                        className="w-full max-w-sm md:max-w-md"
+                        className="w-full lg:w-[800px] lg:h-[600px] lg:ml-12"
                         />
                     </div>
                     </section>
@@ -330,7 +330,7 @@ const Home = () => {
                         <img
                         src="/images/1 2.png" 
                         alt="Info Section Image"
-                        className="w-full max-w-sm md:max-w-md"
+                        className="w-full lg:w-[800px] lg:h-[600px] lg:mr-10"
                         />
                     </div>
 
@@ -338,7 +338,7 @@ const Home = () => {
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Verstehen und Kommunikation – Die Basis für euren Erfolg
                         </h2>
-                        <p className="font-matt text-lg md:text-xl text-gray-700 leading-relaxed">
+                        <p className="font-matt lg:text-[20px] lg:leading-[33px] text-lg text-gray-700">
                         Alles beginnt mit einer klaren und offenen Kommunikation. Wir analysieren eure Anforderungen, verstehen eure individuellen Herausforderungen und definieren gemeinsam die Ziele. Durch Consulting, Business-Analyse und strategische Planung legen wir den Grundstein für massgeschneiderte Lösungen, die eure spezifischen Bedürfnisse widerspiegeln.
                         </p>
                     </div>
@@ -349,7 +349,7 @@ const Home = () => {
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         UI/UX – Benutzerzentrierte Gestaltung für eure Lösung
                         </h2>
-                        <p className="font-matt text-lg md:text-xl text-gray-700 leading-relaxed">
+                        <p className="font-matt lg:text-[20px] lg:leading-[33px] text-lg text-gray-700">
                         Im nächsten Schritt gestalten wir das Look-and-Feel eurer Lösung. Wir entwickeln Prototypen, optimieren Prozesse und entwerfen ein ansprechendes, intuitives Design. Unser Ziel ist es, dass eure Website, Software oder andere Plattformen nicht nur ästhetisch überzeugen, sondern auch funktional und benutzerfreundlich sind, um den höchsten Ansprüchen gerecht zu werden.
                         </p>
                     </div>
@@ -358,7 +358,7 @@ const Home = () => {
                         <img
                         src="/images/2 1.png" 
                         alt="Info Section Image"
-                        className="w-full max-w-sm md:max-w-md"
+                        className="w-full lg:w-[800px] lg:h-[600px] lg:ml-14"
                         />
                     </div>
                     </section>
@@ -368,14 +368,14 @@ const Home = () => {
                         <img
                         src="/images/4 1.png" 
                         alt="Info Section Image"
-                        className="w-full max-w-sm md:max-w-md"
+                        className="w-full lg:w-[800px] lg:h-[600px] lg:mr-12"
                         />
                     </div>
                     
                     <div className="font-matt flex-1 max-w-md lg:text-left text-center">
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Technische Implementierung – Von der Idee zur Realität                        </h2>
-                        <p className="font-matt text-lg md:text-xl text-gray-700 leading-relaxed">
+                        <p className="font-matt lg:text-[20px] lg:leading-[33px] text-lg text-gray-700">
                         Hier setzen wir eure Vision in die Tat um. Wir entwickeln leistungsfähige und skalierbare Systeme, die eure Anforderungen perfekt erfüllen. Egal ob Online-Shop, Salesforce-Instanz, Cloud-Infrastruktur oder ERP/CRM-System – wir stellen sicher, dass die technische Umsetzung stabil, effizient, sicher und zukunftssicher ist.
                         </p>
                     </div>
@@ -386,7 +386,7 @@ const Home = () => {
                         <h2 className="font-matt text-2xl md:text-3xl font-bold text-black mb-4">
                         Optimierung, Schulung und Support – Nachhaltige Partnerschaft
                         </h2>
-                        <p className="font-matt text-lg md:text-xl text-gray-700 leading-relaxed">
+                        <p className="font-matt text-lg lg:text-[20px] lg:leading-[33px] text-gray-700">
                         Unsere Arbeit endet nicht mit der Implementierung. Wir stehen euch langfristig zur Seite, indem wir die Lösungen kontinuierlich optimieren, Schulungen anbieten und zuverlässigen Support gewährleisten. Unsere Systeme sind darauf ausgelegt, euch auch in Zukunft zu unterstützen – und wenn es Fragen gibt, sind wir immer für euch da. Unser Ziel ist es, euch eine nachhaltige und zukunftsfähige Lösung zu bieten, die langfristig Mehrwert schafft.
                         </p>
                     </div>
@@ -395,7 +395,7 @@ const Home = () => {
                         <img
                         src="/images/3 1.png" 
                         alt="Info Section Image"
-                        className="w-full max-w-sm md:max-w-md"
+                        className="w-full lg:w-[800px] lg:h-[600px] lg:ml-14"
                         />
                     </div>
                     </section>
