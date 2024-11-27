@@ -35,8 +35,8 @@ const Submenu = ({ isHeroVisible }) => {
   if (isHeroVisible || !isVisible) return null;
 
   return (
-    <nav className="fixed top-[70px] left-0 w-full z-50">
-      <div className="max-w-[1280px] mx-auto flex justify-center items-center">
+    <nav className="fixed lg:top-[70px] top-[43px] left-0 w-full z-50">
+      <div className="max-w-[1280px] mx-auto flex justify-center items-center p-4">
         <div className="w-full lg:w-[400px] bg-[#DBDBDB] rounded-[10px] px-2 py-2 flex justify-center items-center space-x-6 font-normal">
           {['what', 'how', 'why'].map((section, index, arr) => (
             <div key={section} className="flex items-center">
