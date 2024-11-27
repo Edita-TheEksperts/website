@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header
-      className="bg-white sticky top-0 z-[60] px-2 py-2 "
+      className="bg-white sticky top-0 z-[60] px-4 py-4 "
       style={{ scrollBehavior: 'smooth' }}
     >
       <div className="max-w-[1280px] mx-auto flex items-center justify-between">
